@@ -39,11 +39,29 @@
       </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
-      <div class="container">
-        <div class="masthead-subheading">Welcome To Our Site</div>
-        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('assets/img/header-bg.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">First Slide</h2>
+              <p class="lead">This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('assets/img/bg-1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4">Second Slide</h2>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </header>
     <!-- Services-->
@@ -371,7 +389,7 @@
     </footer>
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
-    <a href="cloth.html"> ajisjf </a>
+
     <!-- Modal 2-->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
